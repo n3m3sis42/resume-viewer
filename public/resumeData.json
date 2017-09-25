@@ -4,7 +4,7 @@
     "occupation":"Full Stack Web Developer",
     "description":"Coder ~ Mother ~ Writer ~ Indefatigable Problem-Solver",
     "image":"profile_pic.png",
-    "bio":"I'm a self-motivated web developer with a passion for deep knowledge. In addition to experience in Ruby on Rails, JavaScript, React, and Redux, I have over a decade of background in functional MUMPS-based programming, management, and software testing. I have a proven ability to master new technologies and solve difficult problems, and once learned an unfamiliar coding language with only a binder of handwritten notes as a teaching tool. In my free time, I'm co-writing an urban fantasy series and attending as many tech industry meetups as possible.",    
+    "bio":"I'm a self-motivated web developer with a passion for deep knowledge. In addition to experience in Ruby on Rails, JavaScript, React, and Redux, I have over a decade of background in functional MUMPS-based programming, management, and software testing. I have a proven ability to master new technologies and solve difficult problems, and once learned an unfamiliar coding language with only a binder of handwritten notes as a teaching tool. In my free time, I'm co-writing an urban fantasy series and attending as many tech industry meetups as possible.",
     "email": "sarah.g.evans42@gmail.com",
     "phone": "404-918-8152",
     "address":{
@@ -117,28 +117,19 @@
         "title":"Equidestined",
         "description":"The best way to find new places to meet your friends in the middle.",
         "category":"Web Development",
-        "tags":"Ruby, Rails, Coding, SQL",
-        "image":"coffee.jpg",
+        "tags":"Ruby on Rails, PostgreSQL",
+        "image":"equidestined.jpg",
         "url":"https://equidestined.herokuapp.com/start",
         "modal":"#modal-01"
       },
       {
         "title":"Pixel Playground",
         "description":"A collaborative art experience, inspired by Reddit’s Rplace.",
-        "category":"Web Design",
-        "tags":"JavaScript, Rails, Coding, SQL, HTML5 Canvas, WebSockets",
-        "image":"console.jpg",
+        "category":"Web Development",
+        "tags":"JavaScript, Rails, PostgreSQL, HTML5 Canvas, WebSockets",
+        "image":"pixel_playground.jpg",
         "url":"https://pixel-playground.herokuapp.com/",
         "modal":"#modal-02"
-      },
-      {
-        "title":"Judah",
-        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
-        "category":"Web Development",
-        "tags":"Branding, Web Programming",
-        "image":"judah.jpg",
-        "url":"http://port3.com",
-        "modal":"#modal-03"
       }
     ]
   },

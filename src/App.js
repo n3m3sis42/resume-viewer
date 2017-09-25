@@ -29,15 +29,15 @@ class App extends Component {
   }
 
   render() {
-    const { main, resume } = this.state.resumeData
+    const { main, resume, portfolio, testimonials } = this.state.resumeData
 
     return (
       <div className="App">
         <Header data={main}/>
         <About data={main}/>
         <Resume data={resume}/>
-        <Portfolio />
-        <Testimonials />
+        <Portfolio data={portfolio} />
+        <Testimonials data={testimonials}/>
         <Contact />
         <Footer />
       </div>
