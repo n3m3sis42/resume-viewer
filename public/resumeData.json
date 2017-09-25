@@ -1,0 +1,161 @@
+{
+  "main": {
+    "name":"Sarah G Evans",
+    "occupation":"Full Stack Web Developer",
+    "description":"Coder ~ Mother ~ Writer ~ Indefatigable Problem-Solver",
+    "image":"profile_pic.png",
+    "bio":"I'm a self-motivated web developer with a passion for deep knowledge. In addition to experience in Ruby on Rails, JavaScript, React, and Redux, I have over a decade of background in functional MUMPS-based programming, management, and software testing. I have a proven ability to master new technologies and solve difficult problems, and once learned an unfamiliar coding language with only a binder of handwritten notes as a teaching tool. In my free time, I'm co-writing an urban fantasy series and attending as many tech industry meetups as possible.",    
+    "email": "sarah.g.evans42@gmail.com",
+    "phone": "404-918-8152",
+    "address":{
+      "street":"",
+      "city":"",
+      "state":"",
+      "zip": ""
+    },
+    "website": "http://www.techguywebsolutions.com",
+    "resumedownload":"http://something.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/n3m3sis42",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/n3m3sis42",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/sarahgevans/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/n3m3sis42",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"medium",
+        "url":"https://medium.com/@sarahleopoldevans",
+        "className":"fa fa-medium"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Flatiron School",
+        "degree":"Web Development Immersive Program",
+        "graduated":"September 2017",
+        "description":""
+      },
+      {
+        "school":"Georgia State University",
+        "degree":"Undergraduate Coursework in Computer Science",
+        "graduated":"2003 - 2006",
+        "description":""
+      },
+      {
+        "school":"Emory University",
+        "degree":"BA Psychology",
+        "graduated":"May 1998",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Iatric Systems",
+        "title":"Technical Services Support Programmer",
+        "years":"December 2011 - February 2017",
+        "description":"Provided advanced-level technical support for cloud-based and enterprise healthcare applications. Troubleshot and resolved mission-critical issues with code, applications, and servers. Ensured that 100% of personal client roster met attestation deadlines for Meaningful Use software. Participated in design, development, testing, and support for multiple applications."
+      },
+      {
+        "company":"MEDITECH",
+        "title":"Supervisor, InSync Financial Service Programmers",
+        "years":"October 2008 - December 2011",
+        "description":"+ Managed and mentored a small team of support and development programmers. Prioritized development tasks with an emphasis on meeting all product and client deadlines. Oversaw group code review process to ensure consistent quality of releases. Developed custom software solutions and resolved escalated client issues."
+      },
+      {
+        "company":"MEDITECH",
+        "title":"Senior Developer and Support Programmer",
+        "years":"April 2005 - October 2008",
+        "description":"Resolved advanced technical issues for internal and external customers. Developed in-house tools to improve customer support process. Onboarded and mentored new team members. Coded application changes, bugfixes and custom solutions for clients."
+      }
+    ],
+    "skills":[
+      {
+        "name":"JavaScript",
+        "level":"50%"
+      },
+      {
+        "name":"Ruby On Rails",
+        "level":"65%"
+      },
+      {
+        "name":"React.js",
+        "level":"50%"
+      },
+      {
+        "name":"SQL",
+        "level":"85%"
+      },
+      {
+        "name":"Redux",
+        "level":"50%"
+      },
+      {
+        "name":"MUMPS",
+        "level":"90%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Equidestined",
+        "description":"The best way to find new places to meet your friends in the middle.",
+        "category":"Web Development",
+        "tags":"Ruby, Rails, Coding, SQL",
+        "image":"coffee.jpg",
+        "url":"https://equidestined.herokuapp.com/start",
+        "modal":"#modal-01"
+      },
+      {
+        "title":"Pixel Playground",
+        "description":"A collaborative art experience, inspired by Reddit’s Rplace.",
+        "category":"Web Design",
+        "tags":"JavaScript, Rails, Coding, SQL, HTML5 Canvas, WebSockets",
+        "image":"console.jpg",
+        "url":"https://pixel-playground.herokuapp.com/",
+        "modal":"#modal-02"
+      },
+      {
+        "title":"Judah",
+        "description":"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+        "category":"Web Development",
+        "tags":"Branding, Web Programming",
+        "image":"judah.jpg",
+        "url":"http://port3.com",
+        "modal":"#modal-03"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Sarah is an excellent problem solver, an incredibly hard worker, and an exceptional communicator. When we worked together at Patient Care Technologies, she quickly grew into an expert programmer, and was a great resource for both the application analysts as well as the other programmers. I would recommend Sarah for any position in support, development, or management. She has a great attitude and an even better work ethic.",
+        "user":"Chris Allen"
+      },
+      {
+        "text":"Sarah is a hardworking professional with the ability to move projects forward even under the most challenging of circumstances. As a teammate at Iatric Systems, she was a key performer and related and communicated effectively with our clients as well as with C-level, technical, and end-user teammates alike. I sincerely recommend Sarah for any position throughout the product life cycle, as I have no doubt she will excel in the development, implementation, and support arenas.",
+        "user":"Carl Pitney"
+      },
+      {
+        "text":"Sarah joined our team to install and update a complicated product. She was eager to learn and I saw her tackle work others did not want to work on. She gets the job done and values the customers needs and timelines. I highly recommend her and she will get the job done right and on time.",
+        "user":"Kay Jackson"
+      }
+    ]
+  }
+}
