@@ -19,8 +19,7 @@ export default class App extends Component {
   getResumeData() {
     fetch('http://localhost:3000/resumeData.json')
       .then(resp => resp.json())
-      .then(data => this.setState({ resumeData: data },
-      () => {console.log(this.state)}))
+      .then(data => this.setState({ resumeData: data }))
   }
 
   componentDidMount() {
