@@ -136,7 +136,7 @@
         "description":"A work in progress that allows writers to storyboard by noting and rearranging their scenes.",
         "category":"Web Development",
         "tags":"JavaScript, Rails, PostgreSQL, React, Redux, CSS",
-        "image":"resume-viewer.jpg",
+        "image":"story-board.jpg",
         "url":"https://github.com/n3m3sis42/story-board-client-v2",
         "modal":"#modal-03"
       },
