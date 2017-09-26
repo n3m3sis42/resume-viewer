@@ -17,7 +17,8 @@ export default class App extends Component {
   }
 
   getResumeData() {
-    fetch('http://sarah-g-evans-resume-viewer.herokuapp.com/resumeData.json')
+    fetch('http://localhost:3000/resumeData.json')
+    // fetch('http://sarah-g-evans-resume-viewer.herokuapp.com/resumeData.json')
       .then(resp => resp.json())
       .then(data => this.setState({ resumeData: data }))
   }
