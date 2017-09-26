@@ -1,16 +1,20 @@
 import React, { Component } from 'react';
+import Networks from './Networks'
 
 class Footer extends Component {
+
+  renderSocialLinks() {
+    const { social } = this.props.data
+    return <Networks data={social} />
+  }
+
   render() {
     return (
       <footer>
          <div className="row">
             <div className="twelve columns">
                <ul className="social-links">
-                  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fa fa-linkedin"></i></a></li>>
-                  <li><a href="#"><i className="fa fa-dribbble"></i></a></li>
+                {!this.props.data ? null : this.renderSocialLinks()}
                </ul>
                <ul className="copyright">
                   <li>&copy; Copyright 2014 CeeVee</li>

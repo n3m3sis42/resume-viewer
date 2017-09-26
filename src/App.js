@@ -37,7 +37,7 @@ export default class App extends Component {
         <Resume data={resume}/>
         <Portfolio data={portfolio} />
         <Recommendations data={recommendations}/>
-        <Footer />
+        <Footer data={main} />
       </div>
     );
   }
