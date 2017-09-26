@@ -4,7 +4,6 @@ import About from './components/About'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
 import Recommendations from './components/Recommendations'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default class App extends Component {
@@ -38,7 +37,6 @@ export default class App extends Component {
         <Resume data={resume}/>
         <Portfolio data={portfolio} />
         <Recommendations data={recommendations}/>
-        <Contact />
         <Footer />
       </div>
     );

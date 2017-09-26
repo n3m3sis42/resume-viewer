@@ -9,7 +9,7 @@ class About extends Component {
     }
     const { resumedownload } = this.props.data
     return (
-      <a href={resumedownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+      <a href={resumedownload} target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
     )
   }
 

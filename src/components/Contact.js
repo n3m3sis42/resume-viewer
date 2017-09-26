@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
+import ContactDetails from './ContactDetails'
 
 export default class Contact extends Component {
+
+  displayContactInfo() {
+    return <ContactDetails data={this.props.data} />
+  }
+
   render() {
     return (
       <section id="contact">
@@ -9,9 +15,8 @@ export default class Contact extends Component {
                   <h1><span>Get In Touch.</span></h1>
                </div>
                <div className="ten columns">
-                     <p className="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                     eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                     voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+                     <p className="lead">
+                      I am always open to opportunities to learn and expand my skill set. Please call or email me if you would like to connect. You can also fill out the form below to get in touch.
                      </p>
                </div>
             </div>
@@ -50,13 +55,8 @@ export default class Contact extends Component {
                </div>
                <aside className="four columns footer-widgets">
                   <div className="widget widget_contact">
-   					   <h4>Address and Phone</h4>
-   					   <p className="address">
-   						   Jonathan Doe<br />
-   						   1600 Amphitheatre Parkway <br />
-   						   Mountain View, CA 94043 US<br />
-   						   <span>(123) 456-7890</span>
-   					   </p>
+   					   <h4>Call or Email</h4>
+                {!this.props.data ? null : this.displayContactInfo()}
    				   </div>
                </aside>
          </div>
