@@ -137,7 +137,7 @@
         "category":"Web Development",
         "tags":"JavaScript, React",
         "image":"resume-viewer.jpg",
-        "url":"https://sarah-g-evans-resume-viewer.herokuapp.com/",
+        "url":"http://sarah-g-evans-resume-viewer.herokuapp.com/",
         "modal":"#modal-03"
       }
     ]
