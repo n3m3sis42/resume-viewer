@@ -14,7 +14,9 @@ const ContactDetails = ({ data }) => {
        <p className="address">
          <span>{name}</span><br />
          <span>{phone}</span><br />
-         <span>{email}</span>
+         <span>
+            <a href={`mailto:${email}`}>{email}</a>
+          </span>
        </p>
     </div>
   )
