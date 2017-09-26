@@ -133,8 +133,8 @@
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "recommendations":{
+    "recommendations":[
       {
         "text":"Sarah is an excellent problem solver, an incredibly hard worker, and an exceptional communicator. When we worked together at Patient Care Technologies, she quickly grew into an expert programmer, and was a great resource for both the application analysts as well as the other programmers. I would recommend Sarah for any position in support, development, or management. She has a great attitude and an even better work ethic.",
         "user":"Chris Allen"

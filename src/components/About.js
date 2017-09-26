@@ -5,7 +5,7 @@ class About extends Component {
 
   resumeDownload() {
     if (!this.props.data) {
-      return <div></div>
+      return <span></span>
     }
     const { resumedownload } = this.props.data
     return (

@@ -48,7 +48,7 @@ class Resume extends Component {
   renderSkillRow(skill) {
     const { name, level } = skill
     return (
-      <li key={name}><span style={{width: skill.level}} className="bar-expand"></span><em>{name}</em></li>
+      <li key={name}><span style={{width: level}} className="bar-expand"></span><em>{name}</em></li>
     )
   }
 

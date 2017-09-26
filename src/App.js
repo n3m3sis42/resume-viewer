@@ -3,11 +3,11 @@ import Header from './components/Header'
 import About from './components/About'
 import Resume from './components/Resume'
 import Portfolio from './components/Portfolio'
-import Testimonials from './components/Testimonials'
+import Recommendations from './components/Recommendations'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
-class App extends Component {
+export default class App extends Component {
 
   constructor(props) {
     super(props)
@@ -29,7 +29,7 @@ class App extends Component {
   }
 
   render() {
-    const { main, resume, portfolio, testimonials } = this.state.resumeData
+    const { main, resume, portfolio, recommendations } = this.state.resumeData
 
     return (
       <div className="App">
@@ -37,12 +37,10 @@ class App extends Component {
         <About data={main}/>
         <Resume data={resume}/>
         <Portfolio data={portfolio} />
-        <Testimonials data={testimonials}/>
+        <Recommendations data={recommendations}/>
         <Contact />
         <Footer />
       </div>
     );
   }
 }
-
-export default App;

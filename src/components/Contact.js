@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Contact extends Component {
+export default class Contact extends Component {
   render() {
     return (
       <section id="contact">
@@ -64,5 +64,3 @@ class Contact extends Component {
     );
   }
 }
-
-export default Contact;

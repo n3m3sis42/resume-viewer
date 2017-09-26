@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+export default class Portfolio extends Component {
 
   renderPortfolioItem(project) {
-    const { title, description, category, tags, image, url, modal } = project
+    const { title, category, tags, image, url } = project
     return (
-      <div className="columns portfolio-item">
+      <div key={title} className="columns portfolio-item">
         <div className="item-wrap">
           <a href={url} title={url} target="_blank">
             <img alt="" src={`images/portfolio/${image}`} />
@@ -47,5 +47,3 @@ class Portfolio extends Component {
     );
   }
 }
-
-export default Portfolio;
