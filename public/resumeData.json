@@ -132,13 +132,22 @@
         "modal":"#modal-02"
       },
       {
+        "title":"Story Board",
+        "description":"A work in progress that allows writers to storyboard by noting and rearranging their scenes.",
+        "category":"Web Development",
+        "tags":"JavaScript, Rails, PostgreSQL, React, Redux, CSS",
+        "image":"resume-viewer.jpg",
+        "url":"https://github.com/n3m3sis42/story-board-client-v2",
+        "modal":"#modal-03"
+      },
+      {
         "title":"Resume Viewer",
         "description":"Upload your resume and contact details from a JSON file to create your own portfolio site.",
         "category":"Web Development",
         "tags":"JavaScript, React",
         "image":"resume-viewer.jpg",
         "url":"http://sarah-g-evans-resume-viewer.herokuapp.com/",
-        "modal":"#modal-03"
+        "modal":"#modal-04"
       }
     ]
   },
