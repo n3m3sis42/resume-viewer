@@ -130,6 +130,15 @@
         "image":"pixel_playground.jpg",
         "url":"https://pixel-playground.herokuapp.com/",
         "modal":"#modal-02"
+      },
+      {
+        "title":"Resume Viewer",
+        "description":"Upload your resume and contact details from a JSON file to create your own portfolio site.",
+        "category":"Web Development",
+        "tags":"JavaScript, React",
+        "image":"resume-viewer.jpg",
+        "url":"https://sarah-g-evans-resume-viewer.herokuapp.com/",
+        "modal":"#modal-03"
       }
     ]
   },
